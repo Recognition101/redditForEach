@@ -1,0 +1,25 @@
+{
+  "name": "redditForEach",
+  "description": "A utility that executes a CLI command for every link on the first page of a given subreddit.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/recognition101/redditForEach",
+  "keywords": [
+    "reddit",
+    "script",
+    "shell"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recognition101/redditForEach"
+  },
+  "author": {
+    "name": "Recognition101",
+    "email": "darklightmw@gmail.com"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "request": "^2.69.0",
+    "spawn-args": "^0.1.0"
+  },
+  "scripts": {}
+}
