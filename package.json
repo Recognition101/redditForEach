@@ -1,7 +1,7 @@
 {
   "name": "redditForEach",
   "description": "A utility that executes a CLI command for every link on the first page of a given subreddit.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/recognition101/redditForEach",
   "keywords": [
     "reddit",

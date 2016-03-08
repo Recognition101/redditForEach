@@ -31,7 +31,8 @@ var requestJSON = function requestJSON(url) {
 
 var exec = function exec(cmd) {
     return new Promise(function(yes, no) {
-        var args = spawnArgs(cmd, { removequotes: true });
+        var args = spawnArgs(cmd);
+        args = args.map(function(a){return a.replace(/^(['"])(.*)\1$/,'$2');});
         var proc = spawn(args[0], args.slice(1));
         proc.stdout.on('data', function (data) {
             console.log(('' + data).replace(/\n$/, ''));
